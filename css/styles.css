@@ -13,6 +13,7 @@ h1 {
   line-height: 1.5;
   font-size: 3.5rem;
   font-weight: 900;
+  color: white;
 
 }
 .container-fluid{
@@ -42,10 +43,12 @@ margin:  5% 3% 5% 0;
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+
 }
 
 #features{
   padding: 7% 15%;
+
 }
 h3{
 font-family: "Montserrat";
@@ -56,8 +59,15 @@ font-weight: 900 ;
   padding: 5%;
 
 }
+h2{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 1.5;
+}
 p{
   color: grey;
+  font-weight: bold;
 
 }
 .icon{
@@ -66,4 +76,50 @@ p{
 }
 .icon:hover{
   color: black;
+}
+/* testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 13%;
+  margin: 10%;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 0px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.card{
+  padding: 3% 5%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer{
+  text-align: center;
+  padding: 7% 10%;
+}
+.social-icons{
+  margin: 1%;
 }
